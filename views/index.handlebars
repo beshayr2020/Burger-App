@@ -1,6 +1,7 @@
 <!-- Placeholder -->
 <div class="row">
-<div id="unEatenBurgers" class="col-4 offset-1">    
+<div id="UneatenBurgers" class="col-4 offset-1">    
+    <h1>Uneaten Burgers</h1>
     {{#each unEatenBurgers}}
     <div class="row align-items-center burgerContainer mb-1">
         <div class="col burgerName">{{id}}. {{burger_name}}</div>
@@ -8,7 +9,8 @@
     </div>
     {{/each}}    
 </div>
-<div id="eatenBurgers" class="col-4 offset-2">
+<div id="EatenBurgers" class="col-4 offset-2">
+    <h1>Eaten Burgers</h1>
     {{#each eatenBurgers}}
     <div class="eatenContainer mb-1">{{id}}. {{burger_name}}</div>
     {{/each}}

@@ -1,7 +1,7 @@
 /* add your css here */
 body{
-    background-color: rgb(245, 207, 161);
-    color: #414141;
+    background-color: rgb(138, 84, 23);
+    color: #fcf8f8;
 }
 .row{
     margin:0;
@@ -9,11 +9,11 @@ body{
 .burgerContainer, .eatenContainer{
     padding:5px;
     border-radius:3px;
-    border: 1px solid grey;
-    background-color: rgb(231, 230, 230);
+    border: 1px solid rgb(14, 13, 13);
+    background-color: rgb(10, 10, 10);
 }
 .btnDevour{
-    background-color: rgb(11, 134, 167);
+    background-color: rgb(224, 141, 16);
 }
 .burgerName{
     display:inline-block;
